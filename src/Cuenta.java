@@ -1,8 +1,9 @@
 
 public class Cuenta {
 
-	String nombre;
-	int numero;
+	void deposita() throws MiExcepcion {
+		
+	}
 	
 	
 }

@@ -18,7 +18,7 @@ public class Flujo {
 		System.out.println("fin metodo1");
 	}
 	
-	private static void metodo2() {
+	private static void metodo2() throws MiExcepcion {
 		System.out.println("inicion metodo2");
 		throw new MiExcepcion("Mi excepcion fue lanzada");
 	}
