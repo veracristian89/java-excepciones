@@ -2,7 +2,7 @@
 public class TestConexion {
 
 	public static void main(String[] args) throws Exception {
-		
+		 // try con recurso (try whit resource)
 		try (Conexion con = new Conexion()) {
 			con.leerDatos();
 		} catch (IllegalStateException ex) {

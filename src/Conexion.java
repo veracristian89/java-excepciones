@@ -1,4 +1,4 @@
-
+						//se implementa interfaz AutoCloseable para el try con recurso
 public class Conexion implements AutoCloseable {
 
 	public Conexion() {
